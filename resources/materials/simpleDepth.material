@@ -1,0 +1,10 @@
+{
+    "name": "SimpleDepth",
+    "vertexShaderName": "simpleDepthVertexShader",
+    "geometryShaderName": "simpleDepthGeomShader",
+    "fragmentShaderName": "simpleDepthFragmentShader",
+    "cullFace": "None",
+    "useDepthBias": true,
+    "useMultisampling": false,
+    "passType": "ShadowPassDirectLight"
+}

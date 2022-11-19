@@ -1,0 +1,22 @@
+{
+    "name": "BombMaterial",
+    "vertexShaderName": "phongShadowVertexShader",
+    "fragmentShaderName": "phongShadowEmitFragmentShader",
+    "passType": "ScreenQuadMRTPass",
+    "textures": [
+        {
+            "samplerName": "diffuseTex",
+            "textureType": "ImageFile",
+            "filename": "textures/powerups/trashbomb.png"
+        },
+        {
+            "samplerName": "emitTex",
+            "textureType": "ImageFile",
+            "filename": "textures/powerups/trashbomb_emit.png"
+        },
+        {
+            "samplerName": "directShadowTex",
+            "textureType": "ShadowMapDirect"
+        }
+    ]
+}

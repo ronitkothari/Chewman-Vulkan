@@ -1,0 +1,22 @@
+{
+    "name": "LifeMaterial",
+    "vertexShaderName": "phongShadowVertexShader",
+    "fragmentShaderName": "phongShadowEmitFragmentShader",
+    "passType": "ScreenQuadMRTPass",
+    "textures": [
+        {
+            "samplerName": "diffuseTex",
+            "textureType": "ImageFile",
+            "filename": "textures/powerups/trashlife.png"
+        },
+        {
+            "samplerName": "emitTex",
+            "textureType": "ImageFile",
+            "filename": "textures/powerups/trashlife_emit.png"
+        },
+        {
+            "samplerName": "directShadowTex",
+            "textureType": "ShadowMapDirect"
+        }
+    ]
+}

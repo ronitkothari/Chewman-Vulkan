@@ -1,0 +1,12 @@
+{
+    "name": "OnlyBrightEffect",
+    "vertexShaderName": "quadRenderVertexShader",
+    "fragmentShaderName": "onlyBrightFragmentShader",
+    "cullFace": "FrontFace",
+    "textures": [
+            {
+                "samplerName": "texSampler",
+                "textureType": "ScreenQuadSecond"
+            }
+        ]
+}

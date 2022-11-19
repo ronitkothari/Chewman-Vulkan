@@ -1,0 +1,15 @@
+{
+    "name": "BlueChewmanMaterial",
+    "vertexShaderName": "bonesPhongShadowVertexShader",
+    "fragmentShaderName": "phongShadowFragmentShader",
+    "textures": [
+        {
+            "samplerName": "diffuseTex",
+            "filename": "textures/trashantiman_tex.png"
+        },
+        {
+            "samplerName": "directShadowTex",
+            "textureType": "ShadowMapDirect"
+        }
+    ]
+}

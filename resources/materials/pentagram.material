@@ -1,0 +1,22 @@
+{
+    "name": "PentagramMaterial",
+    "vertexShaderName": "phongShadowVertexShader",
+    "fragmentShaderName": "phongShadowEmitFragmentShader",
+    "passType": "ScreenQuadMRTPass",
+    "textures": [
+        {
+            "samplerName": "diffuseTex",
+            "textureType": "ImageFile",
+            "filename": "textures/powerups/trashgramm_tex.png"
+        },
+        {
+            "samplerName": "emitTex",
+            "textureType": "ImageFile",
+            "filename": "textures/powerups/trashgram_emit_tex.png"
+        },
+        {
+            "samplerName": "directShadowTex",
+            "textureType": "ShadowMapDirect"
+        }
+    ]
+}

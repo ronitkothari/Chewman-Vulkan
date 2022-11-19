@@ -1,0 +1,10 @@
+{
+    "applicationName": "Chewman Vulkan",
+    "useValidation": true,
+    "gpuIndex": "best",
+    "presentMode": "BestAvailable",
+    "initShadows": true,
+    "initWater": false,
+    "useCascadeShadowMap": false,
+    "useScreenQuad": true
+}

@@ -1,0 +1,25 @@
+<document>
+    <Panel name="panel" x="0.3" y="0.1" alignment="center" width="-0.8214" height="0.8" image="windows/gameover_0.png">
+        <Label name="resultLabel" text="@ScoreTitle" alignment="center" y="0.015" width="0.6" height="0.1"/>
+        <Label name="scoreTime2" text="2:00" alignment="center" y="0.4" width="0.6" height="0.1" font-size="35" />
+        <Label name="scoreTime3" text="1:50" x="0.75" y="0.4" width="0.6" height="0.1" textAlignment="Left" font-size="35" />
+        <Label name="result" text="@ScoreVictory" alignment="center" y="0.5" width="0.6" height="0.1"/>
+        <Label name="score" text="@ScorePointLabel" alignment="center" y="0.6" width="0.6" height="0.1"/>
+        <Image name="googleplay" x="0.1" y ="0.7" width="-1" height="0.1" image="buttons/googleplay.png"/>
+        <Label name="time" text="@ScoreTimeLabel" alignment="center" y="0.7" width="0.6" height="0.1"/>
+        <Label name="levelname" text="Level 1-1" alignment="center" y="0.8" width="0.6" height="0.1"/>
+        <Image name="highscoreScore" x="0.75" y="0.6" width="0.4" height="-0.76" image="scorerecord.png"/>
+        <Image name="highscoreTime" x="0.75" y="0.7" width="0.4" height="-0.75" image="timerecord.png"/>
+
+        <Image name="starSpark1" x="-0.08" y="0.07" width="0.65" height="-1" />
+        <Image name="starSpark2" x="0.13" y="-0.02" width="0.75" height="-1" />
+        <Image name="starSpark3" x="0.46" y="0.07" width="0.65" height="-1" />
+
+        <Container name="buttons" x="0.1" y="0.90" height="0.16" alignment="center" width="0.8">
+            <Button name="continue" x="0" y="0" width="-1" height="1" image="buttons/play.png" hoverimage="buttons/play_hover.png" pressedimage="buttons/play_pressed.png"/>
+            <Button name="restart" x="0.4" y="0" alignment="center" width="-1" height="1" image="buttons/restart.png" hoverimage="buttons/restart_hover.png" pressedimage="buttons/restart_pressed.png"/>
+            <Button name="tomenu" x="1.0" y="0" alignment="right" width="-1" height="1" image="buttons/menu.png" hoverimage="buttons/menu_hover.png" pressedimage="buttons/menu_pressed.png"/>
+        </Container>
+    </Panel>
+
+</document>

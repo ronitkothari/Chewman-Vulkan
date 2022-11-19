@@ -1,0 +1,12 @@
+{
+    "name": "HBlurEffect",
+    "vertexShaderName": "HBlurVertexShader",
+    "fragmentShaderName": "BlurFragmentShader",
+    "cullFace": "FrontFace",
+    "textures": [
+            {
+                "samplerName": "texSampler",
+                "textureType": "LastEffect"
+            }
+        ]
+}

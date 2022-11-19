@@ -1,0 +1,12 @@
+{
+    "name": "LavaMaterial",
+    "vertexShaderName": "lavaVertexShader",
+    "fragmentShaderName": "lavaFragmentShader",
+    "passType": "ScreenQuadMRTPass",
+    "textures": [
+        {
+            "samplerName": "noiseSampler",
+            "filename": "textures/noise.png"
+        }
+    ]
+}

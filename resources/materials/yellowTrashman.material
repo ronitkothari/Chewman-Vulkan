@@ -1,0 +1,15 @@
+{
+    "name": "Yellow",
+    "vertexShaderName": "bonesPhongShadowVertexShader",
+    "fragmentShaderName": "phongShadowFragmentShader",
+    "textures": [
+        {
+            "samplerName": "diffuseTex",
+            "filename": "textures/trashman_tex.png"
+        },
+        {
+            "samplerName": "directShadowTex",
+            "textureType": "ShadowMapDirect"
+        }
+    ]
+}

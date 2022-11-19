@@ -1,0 +1,22 @@
+{
+    "name": "TeethMaterial",
+    "vertexShaderName": "phongShadowVertexShader",
+    "fragmentShaderName": "phongShadowEmitFragmentShader",
+    "passType": "ScreenQuadMRTPass",
+    "textures": [
+        {
+            "samplerName": "diffuseTex",
+            "textureType": "ImageFile",
+            "filename": "textures/powerups/trashteeth.png"
+        },
+        {
+            "samplerName": "emitTex",
+            "textureType": "ImageFile",
+            "filename": "textures/powerups/trashteeth_emit.png"
+        },
+        {
+            "samplerName": "directShadowTex",
+            "textureType": "ShadowMapDirect"
+        }
+    ]
+}

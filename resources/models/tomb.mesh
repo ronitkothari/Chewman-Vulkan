@@ -1,0 +1,6 @@
+{
+    "name": "tomb",
+    "filename": "assets/tomb.dae",
+    "switchYZ": false,
+    "scale": [ 0.13332, 0.16665, 0.1 ]
+}

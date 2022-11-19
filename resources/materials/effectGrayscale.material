@@ -1,0 +1,12 @@
+{
+    "name": "GrayscaleEffect",
+    "vertexShaderName": "quadRenderVertexShader",
+    "fragmentShaderName": "grayscaleFragmentShader",
+    "cullFace": "FrontFace",
+    "textures": [
+            {
+                "samplerName": "texSampler",
+                "textureType": "LastEffect"
+            }
+        ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "KnightMaterial",
+    "vertexShaderName": "bonesPhongShadowVertexShader",
+    "fragmentShaderName": "phongShadowFragmentShader",
+    "cullFace": "BackFace",
+    "textures": [
+        {
+            "samplerName": "diffuseTex",
+            "filename": "textures/enemies/knight2.png"
+        },
+        {
+            "samplerName": "directShadowTex",
+            "textureType": "ShadowMapDirect"
+        }
+    ]
+}

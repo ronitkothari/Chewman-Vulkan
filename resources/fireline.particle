@@ -1,0 +1,38 @@
+{
+    "name": "FireLineParticle",
+    "materialName": "FireParticleMaterial",
+    "computeShaderName": "particlesComputeShader",
+
+    "quota": 7000,
+    "sort": true,
+
+    "particleEmitter":
+    {
+        "direction": [ 0.0, 0.0, 1.0 ],
+        "angle": 0.0,
+        "originRadius": 0.1,
+
+        "emissionRate": 200,
+        "minLife": 6,
+        "maxLife": 6,
+        "minSpeed": 6.0,
+        "maxSpeed": 6.0,
+        "minSize": 0.7,
+        "maxSize": 0.8,
+        "minRotate": -3.14,
+        "maxRotate": 3.14,
+        "colorRangeStart": [ 0.0, 0.0, 0.0, 0.0 ],
+        "colorRangeEnd": [ 0.0, 0.0, 0.0, 0.0 ]
+    },
+    "particleAffector":
+    {
+        "minAcceleration": 0.0,
+        "maxAcceleration": 0.0,
+        "minRotateSpeed": -3.0,
+        "maxRotateSpeed": 3.0,
+        "minScaleSpeed": 0.5,
+        "maxScaleSpeed": 0.5,
+
+        "colorChanger": [ 0.0, 0.0, 0.0, 0.0 ]
+    }
+}

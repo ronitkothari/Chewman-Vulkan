@@ -1,0 +1,16 @@
+{
+    "name": "AngelMaterial",
+    "vertexShaderName": "phongShadowVertexShader",
+    "fragmentShaderName": "phongShadowFragmentShader",
+    "cullFace": "BackFace",
+    "textures": [
+        {
+            "samplerName": "diffuseTex",
+            "filename": "textures/enemies/angelNew.jpg"
+        },
+        {
+            "samplerName": "directShadowTex",
+            "textureType": "ShadowMapDirect"
+        }
+    ]
+}

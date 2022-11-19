@@ -1,0 +1,16 @@
+{
+    "name": "BloomEffect",
+    "vertexShaderName": "quadRenderVertexShader",
+    "fragmentShaderName": "bloomFragmentShader",
+    "cullFace": "FrontFace",
+    "textures": [
+            {
+                "samplerName": "texSampler",
+                "textureType": "LastEffect"
+            },
+            {
+                "samplerName": "originalSampler",
+                "textureType": "ScreenQuad"
+            }
+        ]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "VBlurEffect",
+    "vertexShaderName": "VBlurVertexShader",
+    "fragmentShaderName": "BlurFragmentShader",
+    "cullFace": "FrontFace",
+    "textures": [
+            {
+                "samplerName": "texSampler",
+                "textureType": "LastEffect"
+            }
+        ]
+}
